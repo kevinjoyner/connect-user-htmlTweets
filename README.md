@@ -21,6 +21,6 @@ app
     .listen(3000);
 ```
 
-You can now access the API by sending a GET rquest to: `http://localhost:3000/tweets`.
+You can now access the API by sending a GET request to: `http://localhost:3000/tweets`.
 
 Tweets will be cached to help prevent going over Twitter's [rate limit](https://dev.twitter.com/docs/rate-limiting/1.1).
