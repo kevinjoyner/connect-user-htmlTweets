@@ -2,11 +2,20 @@
   "name": "connect-user-tweets",
   "author": "Neil Goodman (http://neilgoodman.net)",
   "version": "0.1.0",
-  "homepage": "https://github.com/posco2k8/connect-search-twitter",
+  "homepage": "https://github.com/posco2k8/connect-user-tweets",
   "repository": {
     "type": "git",
-    "url": "git://github.com/posco2k8/connect-search-twitter.git"
+    "url": "git://github.com/posco2k8/connect-user-tweets.git"
   },
+  "bugs": {
+    "url": "https://github.com/posco2k8/connect-user-tweets/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/posco2k8/connect-user-tweets/master/blob/LICENSE"
+    }
+  ],
   "main": "lib/connect-user-tweets.js",
   "dependencies": {
     "twit": "~1.1.6",
