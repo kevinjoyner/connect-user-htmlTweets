@@ -2,6 +2,11 @@
 node_modules/*
 npm-debug.log
 
+# Project Files #
+*.sublime-project
+*.sublime-workspace
+credentials.json
+
 # OS Garbage #
 .DS_Store
 .DS_Store?
