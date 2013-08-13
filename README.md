@@ -1,6 +1,12 @@
 # connect-user-tweets
 
-Middleware for [connect](https://github.com/senchalabs/connect) that registers an endpoint which can be used to look up Tweets posted by a given user. Example:
+Middleware for [connect](https://github.com/senchalabs/connect) that registers an endpoint to look up Tweets posted by a given user.
+
+## Install
+
+npm install connect-user-tweets
+
+## Usage
 
 ```javascript
 var connect = require('connect'),
