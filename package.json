@@ -2,7 +2,7 @@
   "name": "connect-user-tweets",
   "author": "Neil Goodman (http://neilgoodman.net)",
   "description": "Middleware for connect that fetches Tweets.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/posco2k8/connect-user-tweets",
   "repository": {
     "type": "git",
