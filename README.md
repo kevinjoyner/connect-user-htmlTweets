@@ -4,7 +4,7 @@ Middleware for [connect](https://github.com/senchalabs/connect) that registers a
 
 ## Install
 
-npm install connect-user-tweets
+`npm install connect-user-tweets`
 
 ## Usage
 
