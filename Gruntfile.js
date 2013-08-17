@@ -2,7 +2,7 @@ module.exports = function (grunt) {
     
     grunt.initConfig({
         jasmine_node: {
-            specNameMatch: './test'
+            specNameMatch: './spec'
         }
     });
 
