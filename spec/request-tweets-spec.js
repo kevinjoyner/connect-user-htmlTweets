@@ -1,12 +1,12 @@
 var connect = require('connect'),
     http = require('http'),
     request = require('request'),
-    connectUserTweets = require('../lib/connect-user-tweets');
+    connectUserHtmlTweets = require('../lib/connect-user-htmlTweets');
 
 describe('If Twitter credentials are', function () {
     it('not given then throw an exception', function () {
         function createMiddleware() {
-            var middleware = connectUserTweets();
+            var middleware = connectUserHtmlTweets();
         }
 
         expect(createMiddleware).toThrow();
@@ -16,7 +16,7 @@ describe('If Twitter credentials are', function () {
         var middleware;
 
         function createMiddleware() {
-            middleware = connectUserTweets({
+            middleware = connectUserHtmlTweets({
                 consumer_key: process.env.TWITTER_CONSUMER_KEY, 
                 consumer_secret: process.env.TWITTER_CONSUMER_SECRET,
                 access_token: process.env.TWITTER_ACCESS_TOKEN,
@@ -39,7 +39,7 @@ describe('Default request returns', function () {
             }
         });
 
-        var middleware = connectUserTweets({
+        var middleware = connectUserHtmlTweets({
             screen_name: process.env.SCREEN_NAME,
             consumer_key: process.env.TWITTER_CONSUMER_KEY, 
             consumer_secret: process.env.TWITTER_CONSUMER_SECRET,
@@ -198,7 +198,7 @@ describe('Configured request for 5 tweets returns', function () {
             }
         });
 
-        var middleware = connectUserTweets({
+        var middleware = connectUserHtmlTweets({
             count: 5,
             screen_name: process.env.SCREEN_NAME,
             consumer_key: process.env.TWITTER_CONSUMER_KEY, 

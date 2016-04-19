@@ -1,23 +1,23 @@
 {
-  "name": "connect-user-tweets",
-  "author": "Neil Goodman (http://neilgoodman.net)",
-  "description": "Middleware for connect that fetches Tweets.",
-  "version": "0.1.1",
-  "homepage": "https://github.com/posco2k8/connect-user-tweets",
+  "name": "connect-user-htmlTweets",
+  "author": "Kevin Joyner",
+  "description": "Adapted from Neil Goodman's connect-user-tweets: middleware for connect that fetches Tweets.",
+  "version": "0.0.1",
+  "homepage": "",
   "repository": {
     "type": "git",
-    "url": "git://github.com/posco2k8/connect-user-tweets.git"
+    "url": ""
   },
   "bugs": {
-    "url": "https://github.com/posco2k8/connect-user-tweets/issues"
+    "url": ""
   },
   "licenses": [
     {
-      "type": "MIT",
-      "url": "https://github.com/posco2k8/connect-user-tweets/blob/master/LICENSE"
+      "type": "",
+      "url": ""
     }
   ],
-  "main": "lib/connect-user-tweets.js",
+  "main": "lib/connect-user-htmlTweets.js",
   "engines": {
     "node": ">= 0.8.0"
   },

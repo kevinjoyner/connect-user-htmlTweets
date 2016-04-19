@@ -1,4 +1,8 @@
-# connect-user-tweets
+# connect-user-htmlTweets
+
+Forked from connect-user-tweets.
+
+This README file needs updating.
 
 Middleware for [connect](https://github.com/senchalabs/connect) that registers an endpoint to look up Tweets posted by a given user. Tweets will be cached on the connect server to help prevent going over Twitter's [rate limit](https://dev.twitter.com/docs/rate-limiting/1.1).
 
