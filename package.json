@@ -2,6 +2,7 @@
   "name": "connect-user-htmltweets",
   "author": "Kevin Joyner",
   "description": "Adapted from Neil Goodman's connect-user-tweets: middleware for connect that fetches Tweets.",
+  "keywords": [ "connect", "tweets", "twitter" ],
   "version": "0.0.1",
   "homepage": "https://github.com/kevinjoyner/connect-user-htmlTweets",
   "repository": {
