@@ -1,5 +1,5 @@
 {
-  "name": "connect-user-htmlTweets",
+  "name": "connect-user-htmltweets",
   "author": "Kevin Joyner",
   "description": "Adapted from Neil Goodman's connect-user-tweets: middleware for connect that fetches Tweets.",
   "version": "0.0.1",
