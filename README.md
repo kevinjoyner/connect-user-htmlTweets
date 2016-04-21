@@ -10,7 +10,7 @@ Building on connect-user-tweets, connect-user-htmlTweets fetches the tweet IDs f
 
 ## Install
 
-`$ npm install connect-user-tweets`
+`$ npm install connect-user-htmlTweets`
 
 ## Usage
 
