@@ -1,12 +1,12 @@
 # connect-user-htmlTweets
 
+Middleware for [connect](https://github.com/senchalabs/connect) that registers an endpoint to look up Tweets posted by a given user. Tweets will be cached on the connect server to help prevent going over Twitter's [rate limit](https://dev.twitter.com/docs/rate-limiting/1.1).
+
 Forked from connect-user-tweets.
 
-When you fetch a tweet from statuses/user_timeline the tweet is delivered in plain text, with the URLs separately. I wanted to use the tweets a website and have the links (often truncated) clickable. I also wanted to achieve this without needing to carry Twitter's JavaScript on my site.
+When you fetch a tweet from statuses/user_timeline the tweet is delivered in plain text, with the URLs separately. I wanted to use the tweets on a website and have the links (often truncated) clickable. I also wanted to achieve this without needing to carry Twitter's JavaScript on my site.
 
 Building on connect-user-tweets, connect-user-htmlTweets fetches the tweet IDs from statuses/user_timeline. It then fetches the HTML for each tweet from statuses/oembed. It strips out some HTML that I didn't want, and it sorts the tweets to make sure they're in recent-to-older date order.
-
-Middleware for [connect](https://github.com/senchalabs/connect) that registers an endpoint to look up Tweets posted by a given user. Tweets will be cached on the connect server to help prevent going over Twitter's [rate limit](https://dev.twitter.com/docs/rate-limiting/1.1).
 
 ## Install
 
